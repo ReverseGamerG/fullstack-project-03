@@ -1,12 +1,12 @@
 main{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding-block: 24px;
 }
 
 main img{
-  width: 286px;
+  width: 100%;
   height: 286px;
   object-fit: cover;
 }
